@@ -1,3 +1,3 @@
-const popAlert = () => {
-    alert('만나서 반가워요.')
+const alertPoet = () => {
+    alert('시인 : 도종환')
 }

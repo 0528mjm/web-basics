@@ -1,8 +1,39 @@
-p {
-    /* 폰트 크기 설정 */
-    font-size: 60px;
-    /* 폰트 굵기 설정 */
-    font-weight: 800;
-    /* 텍스트 가운데 정렬 */
-    text-align: center;
+body {
+    padding: 2rem;
+    white-space: nowrap;
+    background-image: url("https://blog.kakaocdn.net/dn/yR87L/btqCqOCZBBP/hhlJWVBrr3IJVtboPbhc01/img.jpg");
+
 }
+
+.poem {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30rem;
+    justify-content: center;
+    align-items: center;
+    font-family: "THE외계인설명서";
+}
+
+.head {
+    width: 50%;
+    margin-bottom: 4rem;
+    cursor: grab;
+}
+
+#title {
+    text-align: right;
+    font-size: 4rem;
+    font-weight: 800;
+    color:darksalmon;
+}
+
+.text {
+    width: 50%;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.caluse {
+    margin-bottom: 2.25rem;
+} 
+
