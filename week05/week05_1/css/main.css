@@ -1,0 +1,44 @@
+body{
+    font-family: 'Jua', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+    background: #000;
+}
+.material-icons{
+    color:ghostwhite;
+    font-size: 32px;z
+    cursor: pointer;
+}
+header {
+    background: #222;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+/* 아이콘을 헤더 기준으로 절대적인 위치 부여 */
+header>.material-icons{
+    position: absolute;
+}
+/* 초기설정을 햄버거만 보이고 엑스는 안보이게 */
+header>.material-icons#btn-open{
+    display: block;
+}
+header>.material-icons#btn-close{
+    display: none;
+}
+/* 사이드 바 */
+nav{
+    position: absolute;
+    top: 60px;
+    height: calc(100vh - 60px);
+    width: 300px;
+    background: #222;
+    /* 기본 상태를 닫힌 상태로 */
+    transform: translateX(-100%);
+    /* 사이드 바가 스르륵 열리도록 설정 */
+    transition: .5s;
+}

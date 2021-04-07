@@ -21,7 +21,7 @@ body {
 }
 
 #title {
-    text-align: right;
+    text-align: left;
     font-size: 4rem;
     font-weight: 800;
     color:darksalmon;
