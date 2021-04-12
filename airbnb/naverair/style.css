@@ -1,0 +1,222 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    
+}
+#main-page{
+    background: url(img/bg.jpg) no-repeat center;
+    background-size: cover;
+    height: 80vh;
+}
+.main-navi{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    height:80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+}
+
+.main-navi .logo {
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.main-navi .logo i { 
+    font-size: 40px;
+    position: relative;
+    top: 6px;
+}
+.main-navi .logo a {
+    text-decoration: none;
+    color: rgb(255, 56, 92);
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding-bottom: 7px;
+    /* padding: 10px 0px; */
+}
+.main-navi .search .button {
+    height: 48px;
+    width: 300px;
+    border-radius: 30px;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    background-color: white;
+    outline: none;
+}
+.main-navi .search .button:hover{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.main-navi .search .button .rButton {
+    background-color:rgb(255, 56, 92); 
+    color: white;
+    border-radius: 50%;
+    padding: 5px 7px;
+}
+.main-navi .search .button .rButton i {
+    font-size: 10px;
+}
+
+.main-navi .menu {
+    display: flex;
+    justify-content: space-around;
+    /* width: 25%; */
+}
+.main-navi .menu .item {
+    margin: 0 5px;
+    padding: 7px;
+}
+.main-navi .menu .item:hover{
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+}
+.main-navi .menu button{
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    background-color: white;
+}
+.main-navi .menu .item i{
+    padding: 0 3px;
+}
+.main-navi .menu button.item:hover{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+#main-page .box {
+    width: 300px;
+    color: white;
+    margin-top: 7%;
+    margin-left: 80px;
+}
+#main-page .box h1{
+    line-height: 1;
+}
+#main-page .box div{
+    font-size: 14px;
+    font-weight: 800;
+    margin: 10px 0;
+}
+#main-page .box button{
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-weight: 800;
+}
+#main-page .box button:hover{
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+/* 두번째 섹션 city*/
+#city {
+    padding: 0 80px;
+    margin: 50px 0;
+}
+#city .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+}
+#city .grid .item {
+    display: grid;
+    grid-template-columns: 1fr 3fr; 
+}
+
+
+#city .item {
+    border-radius: 10px;
+    
+}
+#city .item img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#city .item .text{
+    padding: 10px 15px;  
+}
+
+/* 세번째 picture 섹션 */
+#picture {
+    padding:  50px;
+    margin: 50px 0;
+}
+#picture .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    margin: 0;
+}
+#picture .item img {
+    border-radius: 10px;
+}
+
+#picture .item .text .big{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+#picture .item .text .small{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(113, 113, 113);
+}
+/* 호스팅 */
+#hosting {
+    padding: 0 80px;
+}
+
+#hosting .text {
+
+    position: relative;
+    bottom: 300px;
+    color: white;
+
+}
+
+/* 체험 */
+#experience .grid {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        margin: 50px 0;
+        padding: 0 0;
+
+}
+
+/* 호스팅체험 */
+#experience2 .grid {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 50px 0;
+    padding: 0 0;
+
+}
+/* 호스팅체험 */
+
+
+#footer .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1px;
+    margin: 0;
+    background-color: lightgray;
+}
+
+ul {
+    list-style: none;
+}
+[출처] 에어비앤비 포트폴리오(클론코딩)|작성자 뇌출혈리퍼블릭

@@ -1,0 +1,103 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+    background-color: white;
+}
+
+#title{
+    background-color: #222;
+    height: 50px;
+    color: darkgray;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 27px;
+}
+
+header {
+    background-color: black;
+    height: 998px;
+    width: 100%;
+}
+
+.main-title{
+    top: 0;
+    height:90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    
+}
+
+.main-title .logo {
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.main-title .logo i { 
+    position: relative;
+    top: 6px;
+}
+.main-title .logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 0 0 3px 6px;
+    /* padding: 10px 0px; */
+}
+
+.main-title .middle-title{
+    color: white;
+    display: flex;
+    margin: auto;
+    padding-right: 50px;   
+}
+
+.first th{
+    position:relative;
+    font-size: 20px;
+    padding: 20px ;
+    font-weight: 400;
+    }
+
+.main-title .host{
+    ;
+}
+
+.search{
+    color: white;
+    font-size: 25px;
+}
+
+.host .item{    
+        margin: 0 5px;
+        padding: 7px;
+    }
+
+
+
+.search .button {
+    background-color: white;
+    color: black;
+    width: 1060px;
+    height: 84px;
+    border-radius: 40px;
+    display: flex;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+    
+}
+
+.house-image{
+    display: flex;
+    margin: -50px 30px 0 30px;
+    position: absolute;
+    z-index: 1;
+}
+
+

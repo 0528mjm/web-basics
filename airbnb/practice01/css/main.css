@@ -1,0 +1,28 @@
+body {
+    font-size: 20px;
+    }
+  
+  .houseChart {
+    position: relative;
+    padding: 10px ;
+  }
+  
+  .houseChart table {
+    margin: 0 auto;
+    width: 700px;
+  }
+  
+  .houseChart table caption {
+    font-size: 36px;
+    font-weight: bold;
+    padding: 20px 20px 20px 10px;
+  }
+
+  table th{
+    padding: 10px ;
+    font-weight: 400;
+  }
+
+  table tr{
+    font-weight: bold;
+  }
