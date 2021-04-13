@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>휴가용 숙소 임대, 숙소, 호텔 체험 및 장소 - 에어비앤비</title>
     <!-- 타이틀에 에어비앤비 로고 삽입 -->
-    <link rel='icon' href="./favicon.ico">
+    <link rel="icon" href="./favicon.ico">
     <!-- 각 브라우저의 기본 스타일을 초기화 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
     <!-- css링크 열기 -->
@@ -17,19 +17,19 @@
 </head>
 <body>
     <header>
-        <div id='title'><a href="https://www.airbnb.co.kr/resources/hosting-homes?persona=guest" style="color: darkgray;">에어비앤비의 코로나19 대응 방안에 대한 최신 정보를 확인하세요.</a></div>
+        <div id="title"><a href="https://www.airbnb.co.kr/resources/hosting-homes?persona=guest" style="color: darkgray;">에어비앤비의 코로나19 대응 방안에 대한 최신 정보를 확인하세요.</a></div>
         
         <!-- 두번째 줄 -->
         <div class="main-title">
             <div class="logo">
-                <img src="images/에어비앤비 로고 흰색.png"; style="width:45px; height:45px;" />
+                <img src="images/에어비앤비 로고 흰색.png"; style="width:45px; height:45px;"/>
                 <a href="index.html">
                     <i class="fab fa-airbnb"></i> airbnb
                 </a>
             </div>
 
-            <div class='middle-title'>
-                <table class='first'>
+            <div class="middle-title">
+                <table class="first">
                     <tr class="middle-chart">
                         <th>숙소</th>
                         <th>체험</th>
@@ -38,13 +38,12 @@
                 </table>
                 <div class="host">
                     호스트 되기
-                    <button class="item">
-                        <div class="globe"></div>
-                        <div class="hamburger"></div>
+                </div>
+                    
+                <div class="globe"></div>
+                
+                <div class="hamburger"></div>
                     </button>
-
-                        
-                    </table> 
                     
 
                 </div>             
@@ -56,31 +55,134 @@
         <div class="search">
             <div class="button"> 
                 
-
             </div>
             
         </div>
 
         <div class="image">
             <div class="house-image">
-                <img src="https://a0.muscache.com/im/pictures/166791ff-bc82-4b88-ba3d-49be1d462dce.jpg?im_w=2560" style="height: 600px; width: 2040px;">
+                <img src="https://a0.muscache.com/im/pictures/166791ff-bc82-4b88-ba3d-49be1d462dce.jpg?im_w=2560" style="height: 630px; width: 2020px;">
             </div>
-        </div> 
+        </div>
 
+        <!-- 호스트분들이 있기에 가능합니다 -->
+        <div class="bottom-host">호스트분들이 있기에 가능합니다</div>
 
-
-        <!-- 중간의 집 그림 -->
-        <div class="image">
-            
-        </div>    
-           
-            
-                
-
+       
     </header>
+
+    <!-- 가까운 여행지 둘러보기 섹션 -->
+    <section id="city">
+        <div class="city-title">가까운 여행지 둘러보기</div>
+        <br>
+        <section class="ctable">
+            <div class="item">
+                <img src="images/c1.webp" width="68%" alt="서울">
+                <div class="text">
+                    <div class="big">서울</div>
+                    <div>차로 1.5시간 거리</div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/c2.webp" width="68%" alt="대전">
+                <div class="text">
+                    <div class="big">대전</div>
+                    <div>차로 3시간 거리</div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/c3.webp" width="68%" alt="">
+                <div class="text">
+                    <div class="big">인천</div>
+                    <div>차로 2시간 거리</div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/c4.webp" width="68%" alt="">
+                <div class="text">
+                    <div class="big">대구</div>
+                    <div>차로 3.5시간 거리</div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="images/c5.webp" width="68%" alt="">
+                <div class="text">
+                    <div class="big">안산시</div>
+                    <div>차로 2시간 거리</div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/c6.webp" width="68%" alt="">
+                <div class="text">
+                    <div class="big">울산시</div>
+                    <div>차로 4.5시간 거리</div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/c7.webp" width="68%" alt="">
+                <div class="text">
+                    <div class="big">수원시</div>
+                    <div>차로 2시간 거리</div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/c8.webp" width="68%" alt="">
+                <div class="text">
+                    <div class="big">광주시</div>
+                    <div>차로 5시간 거리</div>
+                </div>
+            </div>
+
     
+        </section>
+    </section>
+
+
     <!-- 표 형식 만들어 보기 -->
-    <div class="back">
+    <div class="houseChart">
+        <table>
+          <caption style="text-align: left;";>어디에서나, 여행은 살아보는거야!</caption>
+                <thead>
+                        <tr>
+                            <th class="house">
+                                <span><img src="https://a0.muscache.com/im/pictures/7d82ca14-56e5-4465-8218-dcfa7d69b6ac.jpg?im_w=480" style="width:450px; height:450px;  border-radius: 10px;"/></span>
+                            </th>
+                            <th class="space">
+                                <span><img src="https://a0.muscache.com/im/pictures/36f53e61-db8d-403c-9122-5b761c0e4264.jpg?im_w=480" style="width:450px; height:450px; border-radius: 10px;"/></span>
+                            </th>
+
+                            <th class="farm">
+                                    <span><img src="https://a0.muscache.com/im/pictures/7f254627-3922-4880-b8fa-545b8551117e.jpg?im_w=480" style="width:450px; height:450px; border-radius: 10px;"/></span>
+                            </th>
+                            <th class="animal">
+                                    <span><img src="https://a0.muscache.com/im/pictures/10a638e1-6aff-4313-8033-1275cec83987.jpg?im_w=480" style="width:450px; height:450px; border-radius: 10px;"/></span>
+                            </th>
+                        </tr>
+                </thead>
+          
+            <tbody>
+
+                <tr>          
+                    <p class="house">
+                        <td class="table-pad">집 전체</td>
+                    </p>
+                    <p class="space">
+                        <td>독특한 공간</td>
+                    </p>
+                    <p class="farm">
+                        <td>농장 및 자연</td>
+                    </p>
+                    <p class="animal">
+                        <td>반려동물 동반 가능</td>
+                    </p>                  
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+    
 
     </div>
 

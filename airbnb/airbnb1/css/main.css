@@ -8,12 +8,12 @@ body{
 
 #title{
     background-color: #222;
-    height: 50px;
+    height: 46px;
     color: darkgray;
     font-size: 17px;
     font-weight: bold;
     text-align: center;
-    padding-top: 27px;
+    padding-top: 26px;
 }
 
 header {
@@ -39,15 +39,14 @@ header {
 }
 .main-title .logo i { 
     position: relative;
-    top: 6px;
+    top: 10px;
 }
 .main-title .logo a {
     text-decoration: none;
     color: white;
     font-size: 25px;
     font-weight: 700;
-    padding: 0 0 3px 6px;
-    /* padding: 10px 0px; */
+    padding: 0 0 0 5px;
 }
 
 .main-title .middle-title{
@@ -65,12 +64,13 @@ header {
     }
 
 .main-title .host{
-    ;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .search{
     color: white;
     font-size: 25px;
+    padding-top: 10px;
 }
 
 .host .item{    
@@ -84,20 +84,103 @@ header {
     background-color: white;
     color: black;
     width: 1060px;
-    height: 84px;
+    height: 80px;
     border-radius: 40px;
     display: flex;
     margin: auto;
     position: relative;
     z-index: 2;
-    
+ 
 }
 
 .house-image{
     display: flex;
-    margin: -50px 30px 0 30px;
+    margin: -50px 30px 0 37px;
     position: absolute;
     z-index: 1;
+    padding-top: 20px;
 }
 
+
+.bottom-host{
+    color: white;
+    display: flex;
+    font-size: 36px;
+    padding-top: 650px;
+    padding-left: 765px;
+    letter-spacing: 1px;
+}
+
+#city {
+    padding: 0 80px;
+    margin: 50px 0;
+}
+
+#city .city-title{
+    padding-top: 20px;
+    padding-left: 14px;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+
+
+#city .ctable {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0px;
+}
+#city .ctable .item {
+    display: grid;
+    grid-template-columns: 1fr 3fr; 
+}
+
+
+#city .item {
+    
+}
+#city .item img{
+    border-radius: 25px;
+    padding: 10px 15px;
+}
+#city .item .text{
+    padding: 25px 0px;  
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#city .item .text .big{
+    font-weight: bolder;
+}
+
+.houseChart {
+padding: 0 30px;
+margin: 50px 0;
+}
+
+
+.houseChart table {
+margin: 50px;
+width: 700px;
+}
+
+.houseChart table caption {
+font-size: 36px;
+font-weight: bold;
+padding: 20px 20px 20px 10px;
+}
+
+.houseChart table th{
+padding: 10px ;
+font-weight: 400;
+}
+
+.houseChart table tr{
+font-weight: bold;
+}
+
+.houseChart table td{
+    font-size: 23px;
+    padding-left: 10px;
+}
 
