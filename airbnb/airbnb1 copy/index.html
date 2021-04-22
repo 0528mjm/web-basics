@@ -11,20 +11,24 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
     <!-- css링크 열기 -->
     <link rel="stylesheet" href="./css/main.css">
+    <!-- js링크 -->
+    <link href="js/main.js">
     <!-- 폰트 링크 -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- 코로나19 -->
+    <section>
+        <div id="title"><a href="https://www.airbnb.co.kr/resources/hosting-homes?persona=guest">에어비앤비의 코로나19 대응 방안에 대한 최신 정보를 확인하세요.</a></div>
+    </section>
+
     <header>
-        <div id="title"><a href="https://www.airbnb.co.kr/resources/hosting-homes?persona=guest" style="color: darkgray;">에어비앤비의 코로나19 대응 방안에 대한 최신 정보를 확인하세요.</a></div>
-        
-        <!-- 두번째 줄 -->
-        <div class="main-title">
+        <div id="main-title">
             <div class="logo">
-                <img src="images/에어비앤비 로고 흰색.png"; style="width:45px; height:45px;"/>
+                <img src="images/에어비앤비 로고 흰색.png"; style="width:38px; height:38px;"/>
                 <a href="index.html">
-                    <i class="fab fa-airbnb"></i> airbnb
+                    airbnb
                 </a>
             </div>
 
@@ -36,40 +40,66 @@
                         <th>온라인 체험</th>
                     </tr>
                 </table>
-                <div class="host">
-                    호스트 되기
-                </div>
-                    
-                <div class="globe"></div>
-                
-                <div class="hamburger"></div>
-                    </button>
-                    
-
-                </div>             
             </div>
+            
+            <div id="left-head">
+                <div class="host">
+                    <div>호스트 되기</div>
+                </div>
+
+                <div class="globe">
+                    <img src="./images/baseline_language_white_24dp.png">
+                    
+                </div>
+
+                <div class="hamburger">
+                    햄버거 바
+                </div>
+
+            </div>          
+        
         </div>
         
 
         <!-- 검색표 -->
         <div class="search">
-            <div class="button"> 
+            <div class="search-button"> 
+                <button class="location">
+                    <div class="button-top">위치</div>
+                    <div class="button-bottom">어디로 여행가세요?</div>
+                </button>
+                <button class="check-in">
+                    <div class="button-top2">체크인</div>
+                    <div class="button-bottom2">날짜 입력</div>
+                </button>
+                <button class="check-out">
+                    <div class="button-top3">체크아웃</div>
+                    <div class="button-bottom3">날짜 입력</div>
+                </button>
+                <button class="person">
+                    <div class="button-top4">인원</div>
+                    <div class="button-bottom4">게스트 추가</div>
+                    <div class="mag">
+                        <img src="./images/baseline_search_white_24dp.png" style="width: 30px; height: 30px;" alt="돋보기">
+                    </div>
+                        
+                </button>
                 
             </div>
             
         </div>
-
         <div class="image">
             <div class="house-image">
-                <img src="https://a0.muscache.com/im/pictures/166791ff-bc82-4b88-ba3d-49be1d462dce.jpg?im_w=2560" style="height: 630px; width: 2020px;">
+                <img src="./images/">
             </div>
         </div>
-
-        <!-- 호스트분들이 있기에 가능합니다 -->
-        <div class="bottom-host">호스트분들이 있기에 가능합니다</div>
-
-       
+           
     </header>
+
+    
+    <!-- 호스트분들이 있기에 가능합니다 -->
+    <div class="bottom-host">호스트 분들이 있기에 가능합니다</div>
+
 
     <!-- 가까운 여행지 둘러보기 섹션 -->
     <section id="city">
@@ -155,9 +185,9 @@
                             <th class="farm">
                                     <span><img src="https://a0.muscache.com/im/pictures/7f254627-3922-4880-b8fa-545b8551117e.jpg?im_w=480" style="width:450px; height:450px; border-radius: 10px;"/></span>
                             </th>
-                            <th class="animal">
+                            <!-- <th class="animal">
                                     <span><img src="https://a0.muscache.com/im/pictures/10a638e1-6aff-4313-8033-1275cec83987.jpg?im_w=480" style="width:450px; height:450px; border-radius: 10px;"/></span>
-                            </th>
+                            </th> -->
                         </tr>
                 </thead>
           
@@ -173,9 +203,9 @@
                     <p class="farm">
                         <td>농장 및 자연</td>
                     </p>
-                    <p class="animal">
+                    <!-- <p class="animal">
                         <td>반려동물 동반 가능</td>
-                    </p>                  
+                    </p>                   -->
                 </tr>
 
             </tbody>
@@ -183,7 +213,59 @@
     </div>
 
     
+    
+    <section id="hosting">
+        <!-- <img src="images/hosting_Edited.jpg" width="1862" height="605" alt="호스트이미지"> -->
+    
+        <div class="text">
+            <h1>호스트가</h1>
+            <h1>되어보세요</h1>
+            <h2>숙소를 공유하여 부수입을 올리고 새로운 </h2>
+            <h3>가능성을 만나세요.</h3>
+            
+            <button class="bt">자세히 알아보기</button>
 
+        </div>
+    </section>
+
+
+    <div class="experience">
+        <table>
+          <caption style="text-align: left; line-height: 0px;";>체험 둘러보기</caption>
+          <caption style="text-align: left; font-size: 30px; line-height: 4px; font-weight: 400;">현지 전문가와 함께하는 독특한 액티비티에 오프라인이나 온라인으로 참여해 보세요.</caption>
+
+                <thead>
+                        <tr>
+                            <th class="house">
+                                <span><img src="https://a0.muscache.com/im/pictures/ad109d56-2421-40cd-98e6-e114160dc85b.jpg?im_w=480" style="width:610px; height:610px;  border-radius: 10px;"/></span>
+                            </th>
+                            <th class="space">
+                                <span><img src="https://a0.muscache.com/im/pictures/a6b08861-feb8-4a01-a76d-b33d2867b441.jpg?im_w=480" style="width:610px; height:610px; border-radius: 10px;"/></span>
+                            </th>
+
+                            <!-- <th class="farm">
+                                <span><img src="https://a0.muscache.com/im/pictures/7f254627-3922-4880-b8fa-545b8551117e.jpg?im_w=480" style="width:610px; height:610px; border-radius: 10px;"/></span>
+                            </th> -->
+                        </tr>
+                </thead>
+          
+            <tbody>
+
+                <tr>          
+                    <p class="house">
+                        <td class="table-pad">체험</td>
+                    </p>
+                    <p class="space">
+                        <td>온라인 체험</td>
+                    </p>
+                    <p class="farm">
+                        <td>어드벤처</td>
+                    </p>
+                                   
+                </tr>
+
+            </tbody>
+        </table>
     </div>
 
 </body>

@@ -1,0 +1,51 @@
+body{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+    background-color: white;
+}
+
+#title {
+    background-color: #222;
+    height: 77px;
+}
+
+#title a{
+    color:darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.num1{
+    background-color:crimson;
+    height: 70px;
+    margin: 0 auto;
+    padding-left: 0px;
+    padding-right: 20px;
+}
+
+.num1 .num2{
+    background-color: orange;
+    height: 70px;
+    width: 300px;
+    position: absolute;
+    margin-left: 50px;
+}
+
+.num1 .num3{
+    background-color: yellow;
+    height: 70px;
+    display: flex;
+    width: 500px;
+    margin: 0 auto;
+
+}
+
+.num1 .num4{
+    background-color: green;
+    display: flex;
+    height: 70px;
+    width: 300px;
+    }

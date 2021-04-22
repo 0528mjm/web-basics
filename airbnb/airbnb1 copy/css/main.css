@@ -1,0 +1,380 @@
+body{
+    width: 100%;
+    font-weight: 200;
+    line-height: 1.4;
+    background-color: white;
+    width: 100%;
+}
+
+#title{
+    background-color: #222;
+    height: 44px;
+    color: darkgray;
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+#title a{
+    color: darkgrey;
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    background-color: black;
+    height: 824px;
+    width: 100%;
+}
+
+#main-title{
+    top: 0;
+    height:90px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    /* 위랑 옆 페딩해주는거 */
+    padding: 0px 86px;
+}
+
+#main-title .logo {
+    display: flex;
+}
+
+
+#main-title .logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 3px 0 0 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#main-title .middle-title{
+    color: white;
+    margin: auto;
+    /* padding-left: 10px; */
+}
+
+.first th{
+    position:relative;
+    font-size: 20px;
+    padding: 20px ;
+    font-weight: 400;
+    }
+
+
+#left-head{
+    display: flex;
+}
+
+#left-head .host{
+    color:white;
+    font-size: 17px;
+    font-weight: 800;
+}
+
+#left-head .globe{
+    display: flex;
+    padding-left: 20px;
+}
+
+#left-head .hamburger{
+    color: yellow;
+}
+
+
+.search{
+    color: white;
+}
+
+
+
+.search .search-button {
+    background-color: white;
+    color: black;
+    width: 945px;
+    height: 72px;
+    border-radius: 40px;
+    display: flex;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+ }
+
+ .search .search-button .location{
+    background-color: white;
+    border-radius: 40px;
+    width: 336px;
+    border: 0;
+    cursor: pointer;
+}
+
+.search .search-button .check-in{
+    background-color: white;
+    border-radius: 40px;
+    width: 226px;
+    border: 0;
+    cursor: pointer;
+}
+
+.search .search-button .check-out{
+    background-color: white;
+    border-radius: 40px;
+    width: 226px;
+    border: 0;
+    cursor: pointer;
+}
+
+.search .search-button .person{
+    background-color: white;
+    border-radius: 40px;
+    width: 272px;
+    border: 0;
+    cursor: pointer;
+}
+
+ .search .search-button .button-top{
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    padding-left: 35px;
+    padding-top: 5px;
+}
+
+.search .search-button .button-bottom{
+    font-size: 15px;
+    font-weight: 100;
+    color: gray;
+    display: flex; 
+    padding-left: 35px;
+    line-height: 32px;
+}
+
+.search .search-button .button-top2{
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    padding-left: 25px;
+}
+
+.search .search-button .button-bottom2{
+    font-size: 15px;
+    font-weight: 100;
+    color: gray;
+    display: flex; 
+    padding-left: 25px;
+    line-height: 32px;
+}
+
+.search .search-button .button-top3{
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    padding-left: 23px;
+}
+
+.search .search-button .button-bottom3{
+    font-size: 15px;
+    font-weight: 100;
+    color: gray;
+    display: flex; 
+    padding-left: 23px;
+    line-height: 32px;
+}
+
+.search .search-button .mag{
+    background-color: #FF385C;
+    position: relative;
+    display: flex;
+    float: right;
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+}
+
+.search .search-button .mag img{
+    margin: auto;
+}
+
+.search .search-button .button-top4{
+    position: absolute;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    padding-left: 20px;
+    padding-top: 3px;
+
+}
+
+.search .search-button .button-bottom4{
+    position: absolute;
+    font-size: 15px;
+    font-weight: 100;
+    color: gray;
+    display: flex; 
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+
+.house-image{
+    display: flex;
+    margin: auto;
+    position: relative;
+    padding-left: 40px;
+    top: -40px;
+    z-index: 1;
+}
+
+
+.bottom-host{
+    color:white;
+    display: flex;
+    position: relative;
+    font-size: 36px;
+    top: -98px;
+    justify-content: center;
+    z-index: 2;
+
+}
+
+#city {
+    padding-left: 85px;
+    margin: 0 auto;
+}
+
+#city .city-title{
+    padding-top: 20px;
+    padding-left: 17px;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+
+#city .ctable {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3px;
+}
+
+#city .ctable .item {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+#city .item {
+    
+}
+
+#city .item img{
+    border-radius: 25px;
+    padding: 10px 15px;
+}
+#city .item .text{
+    padding: 25px 0px;  
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#city .item .text .big{
+    font-weight: bolder;
+}
+
+.houseChart {
+    padding: 0 45px;
+    
+}
+
+
+.houseChart table {
+    margin: 50px;
+    width: 700px;
+}
+
+.houseChart table caption {
+    font-size: 36px;
+    font-weight: bold;
+    padding: 20px 20px 20px 10px;
+}
+
+.houseChart table th{
+    padding: 10px ;
+    font-weight: 400;
+}
+
+.houseChart table tr{
+    font-weight: bold;
+    }
+
+.houseChart table td{
+    font-size: 23px;
+    padding-left: 10px;
+}
+
+#hosting {
+    padding: 0px 105px;
+}
+
+#hosting img{
+    border-radius: 15px;
+    position: relative;
+}
+
+#hosting .text {
+    position: relative;
+    font-size: 23px;
+    color: white;
+    padding-left: 110px;
+    margin-top: -450px;
+}
+
+#hosting .text h1{
+    font-size: 60px;
+    line-height: 65px;
+    font-weight: bold;
+}
+
+#hosting .text h2{
+    padding-top: 0px;
+}
+
+#hosting .bt{
+    display: flex;
+    margin-top: 40px;
+    padding: 18px 35px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.experience {
+    padding: 0 45px;
+    margin: 230px 0;
+    
+    }
+    .experience table {
+    margin: 50px;
+    width: 700px;
+    }
+    
+    .experience table caption {
+    font-size: 36px;
+    font-weight: bold;
+    padding: 20px 20px 20px 10px;
+    }
+    
+    .experience table th{
+    padding: 10px ;
+    font-weight: 400;
+    }
+    
+    .experience table tr{
+    font-weight: bold;
+    }
+    
+    .experience table td{
+        font-size: 23px;
+        padding-left: 10px;
+    }

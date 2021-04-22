@@ -54,7 +54,7 @@ body{
     outline: none;
 }
 .main-navi .search .button:hover{
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 7px 8px;
 }
 
 .main-navi .search .button .rButton {
